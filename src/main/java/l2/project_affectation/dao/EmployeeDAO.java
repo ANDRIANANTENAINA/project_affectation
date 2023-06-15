@@ -9,7 +9,7 @@ import java.sql.SQLException;;
 
 public class EmployeeDAO {
     //all
-    public static void all () throws SQLException, ClassNotFoundException{
+    public static void all() throws SQLException, ClassNotFoundException{
             String selectStmt = "SELECT * FROM employe";
             try{
                 // get result from dbExecuteQuery method
